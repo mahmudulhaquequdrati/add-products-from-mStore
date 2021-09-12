@@ -25,6 +25,9 @@ body {
   border-radius: 25px;
   margin-left: 20px;
 }
+.product:hover .single-product {
+  background-color: rgba(172, 165, 165, 0.712);
+}
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -50,6 +53,7 @@ body {
 }
 .cart {
   width: 350px;
+
   /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
