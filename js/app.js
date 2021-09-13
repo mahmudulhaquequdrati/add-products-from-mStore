@@ -232,6 +232,7 @@ const showProducts = (products) => {
     document.getElementById("all-products").appendChild(div);
   }
 };
+// update all value on cart when we click addToCart
 let count = 0;
 const addToCart = (id, price) => {
   count = count + 1;
@@ -257,6 +258,7 @@ const updatePrice = (id, value) => {
 
 // set innerText function
 const setInnerText = (id, value) => {
+  // tax delivery amount should be round number
   document.getElementById(id).innerText = Math.round(value);
 };
 

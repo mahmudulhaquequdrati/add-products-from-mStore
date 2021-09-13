@@ -4,8 +4,7 @@ body {
 }
 
 .input-field-div {
-  margin: 50px auto;
-
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -22,7 +21,7 @@ body {
   border-radius: 0 10px 10px 0;
 }
 .product:hover .single-product {
-  background-color: rgba(172, 165, 165, 0.712);
+  background-color: rgba(105, 100, 107, 0.534);
 }
 #all-products {
   display: grid;
@@ -39,8 +38,9 @@ body {
   transition: 0.6s;
 }
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
+  box-shadow: 4px 4px 7px rgb(136, 135, 135);
   border-radius: 10px;
+  /* color: white; */
   border: 1px solid cyan;
 }
 .product-image {
